@@ -1,0 +1,139 @@
+﻿<!--模板生成器，定义效果-->
+<ModifierDefs><List>
+	<Modifier Name="Dan_CWGod" Type="Normal">
+		<DisplayName>大道至简丹</DisplayName>
+		<Desc>形而上者谓之道，从大道之中自然衍化而成的丹药，蕴含大道本身的一切微妙，服用后可以获得巨额参悟值</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>180</Duration>
+		<Display>1</Display>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<TreeExp>60000000</TreeExp>
+			</Elixir>
+		</Item>
+	</Modifier> 
+	
+	<Modifier Name="Dan_FSGod" Type="Normal">
+		<DisplayName>尘心浩劫丹</DisplayName>
+		<Desc>从天劫本源中提炼出来的丹药，蕴含八八六十四次天劫的分神之力，服用后可以一次性获得六十四条分神</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>180</Duration>
+		<Display>1</Display>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<TreeExp>30000000</TreeExp>
+			</Elixir>
+		</Item>
+	</Modifier> 
+	
+	<Modifier Name="Dan_YQGod" Type="Normal">
+		<DisplayName>极御炼神丹</DisplayName>
+		<Desc>形而下者谓之器，凝结了最深层御器感悟的丹药，食用后可以凝炼神魂，额外驾驭一件法宝！可以多次服用</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>180</Duration>
+		<Display>1</Display>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<TreeExp>30000000</TreeExp>
+			</Elixir>
+		</Item>
+	</Modifier> 
+
+        <!--无瑕五气丹-->
+	<Modifier Name="Dan_KaiTianDan2" Type="Normal">
+		<DisplayName>无瑕五气丹</DisplayName>
+		<Desc>返璞归真，以最普通的药材为基，窃取天地五气，永久提高五维各7点，小幅稳固心境</Desc>
+		<MaxStack>100</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>7,7,7,7,7</BaseFive>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="10"/>
+			<li Name="SpeedOfMindStateCoefficient" AddP="-0.1"/>
+		</Properties>
+	</Modifier>
+	
+	<!--大升灵丹-->
+	<Modifier Name="Dan_DaShengLing" Type="Normal">
+		<DisplayName>大升灵</DisplayName>
+		<Desc>上古传承，聚天地帝气，灵气上限提高百万点（元神）。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="1000000"/>
+		</Properties>
+	</Modifier> 
+
+	<!--升灵丹-->
+	<Modifier Name="Dan_ShengLing" Type="Normal">
+		<DisplayName>升灵</DisplayName>
+		<Desc>上古传承，聚天地帝气，灵气上限提高十万点（金丹）。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="100000"/>
+		</Properties>
+	</Modifier> 
+
+	<!--小升灵丹-->
+	<Modifier Name="Dan_XiaoShengLing" Type="Normal">
+		<DisplayName>小升灵</DisplayName>
+		<Desc>上古传承，聚天地帝气，灵气上限提高万点（结丹）。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="10000"/>
+		</Properties>
+	</Modifier> 
+
+	<!--转劫延寿丹-->
+	<Modifier Name="Dan_ZhuanJieYanShou" Type="Normal">
+		<DisplayName>增加阳寿，延后天劫</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAge" AddV="490"/>
+			<li Name="NeckCountdownAddV" AddV="29400"/>
+		</Properties>
+	</Modifier> 
+
+	<!-- 窃道欺天丹 -->
+	<Modifier Name="Dan_QieDaoQiTian" Type="Normal">
+		<DisplayName>窃道欺天，减少道行与天谴值各64点</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="AbilityLvAddV" AddV="-64"/>
+			<li Name="GodPenaltyAddV" AddV="-64"/>
+		</Properties>
+	</Modifier> 
+
+
+	
+</List></ModifierDefs>
