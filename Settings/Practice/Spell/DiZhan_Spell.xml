@@ -1,0 +1,28 @@
+<Spells><List>			
+<!--	<Spell Name="Spell_MoveSpeed1">
+		<DisplayName>轻身符</DisplayName>
+		<Desc>可以提高移动速度的符咒。</Desc>
+		<Template>Spell/main_texture_qingshen01</Template>
+		<Effects>
+			<li Name="MoveSpeed" AddP="0.3"/>
+		</Effects>
+	</Spell>	-->	
+
+<!--自创符咒-->
+<Spell Name="Spell_DiZhan1">
+                <DisplayName>帝战符</DisplayName>
+                <Desc>聚天地上古帝气，凝成符印，帝气加成，开放吸收天地帝气通道，吸引天地灵气，上古帝气塑造形神，提高五维八成、获取参悟指数级提升、突破瓶颈概率增加5成、增加潜力、增加历练破空速度、增加隐蔽值且自带身法快如鬼魅、沟通帝气使灵气用之不竭。</Desc>
+                <Template>Spell/main_texture_qingshen01</Template>
+<BaseFive>80,80,80,80,80</BaseFive><!--五维-->
+		<Effects>
+			<li Name="PracticeRateAddPFromDan" AddP="5"/><!--瓶颈突破值-->
+			<li Name="PotentialOfBasepracticeAddValue" AddV="10"/><!--潜力，筑基速度-->
+			<li Name="NpcFight_SneakValue" AddV="900000000"/> <!--自寻：降低隐匿值，隐匿+通行权可100%偷东西不被发现-->
+			<li Name="WorldMapFlySpeedAddP" AddV="500"/><!--历练飞剑速度-->
+			<li Name="MoveSpeed" AddP="50"/><!--移动速度，100瞬移-->
+			<li Name="LingAbsorbSpeed" AddP="100000"/><!--灵气吸收速度-->
+			<li Name="IntelligenceSkillEXPConstant" AddP="100000"/><!--自寻：参悟值获取效率-->
+                </Effects>
+        </Spell>
+
+</List>	</Spells>
