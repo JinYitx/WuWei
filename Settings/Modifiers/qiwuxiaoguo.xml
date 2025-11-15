@@ -1,5 +1,23 @@
 <ModifierDefs><List>
-
+    <Modifier Name="Dan_CWGod" Type="Normal">
+		<DisplayName>大道至简丹</DisplayName>
+		<Desc>形而上者谓之道，从大道之中自然衍化而成的丹药，蕴含大道本身的一切微妙，服用后可以获得巨额参悟值</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>180</Duration>
+		<Display>1</Display>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<TreeExp>60000000</TreeExp>
+			</Elixir>
+		</Item>
+	</Modifier> 
+	
 	<Modifier Name="Modifier_Item_sphouyi1" Type="Normal">
 		<DisplayName>镇岳极光衣</DisplayName>
 		<Desc></Desc>
@@ -97,4 +115,5 @@
 		</Properties>
 	</Modifier>
 	
+
 </List></ModifierDefs>
