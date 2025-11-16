@@ -1,0 +1,130 @@
+﻿<!--丹炉丹方：需求等级、成功率、产量数量-->
+<DanFormulas><List>
+	<!--大道至简丹-->
+	<Dan Name="Dan_CWGod">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_CWGod</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.9</SuccessRate>
+		<Count>25</Count>
+	</Dan>
+	
+	<!--尘心浩劫丹-->
+	<Dan Name="Dan_FSGod">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_FSGod</ItemName>
+		<Level>5</Level>
+		<SuccessRate>0.9</SuccessRate>
+		<Count>5</Count>
+	</Dan>
+	
+	<!--极御炼神丹-->
+	<Dan Name="Dan_YQGod">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_YQGod</ItemName>
+		<Level>5</Level>
+		<SuccessRate>0.9</SuccessRate>
+		<Count>5</Count>
+	</Dan>
+	
+	<!--无瑕五气丹-->
+	<Dan Name="Dan_KaiTianDan2">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_KaiTianDan2</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.9</SuccessRate>
+		<Count>100</Count>
+	</Dan>
+	
+	<!--伪-造化神丹-->
+	<Dan Name="Dan_Wei_ExtremeLofty">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_Wei_ExtremeLofty</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.9</SuccessRate>
+		<Count>5</Count>
+	</Dan>
+	
+	<!--大升灵丹-->
+	<Dan Name="Dan_DaShengLing">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_DaShengLing</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.9</SuccessRate>
+		<Count>100</Count>
+	</Dan>
+	
+	<!--升灵丹-->
+	<Dan Name="Dan_ShengLing">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_ShengLing</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.9</SuccessRate>
+		<Count>100</Count>
+	</Dan>
+	
+	<!--小升灵丹-->
+	<Dan Name="Dan_XiaoShengLing">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_XiaoShengLing</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.9</SuccessRate>
+		<Count>100</Count>
+	</Dan>
+
+	<!--十万聚灵丹-->
+	<Dan Name="Dan_ShiWanJuLing">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_ShiWanJuLing</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.9</SuccessRate>
+		<Count>100</Count>
+	</Dan>
+
+	<!--百万聚灵丹-->
+	<Dan Name="Dan_BaiWanJuLing">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_BaiWanJuLing</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.9</SuccessRate>
+		<Count>100</Count>
+	</Dan>
+
+	<!--千万聚灵丹-->
+	<Dan Name="Dan_QianWanJuLing">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_QianWanJuLing</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.9</SuccessRate>
+		<Count>100</Count>
+	</Dan>
+
+	<!--神物丹-->
+	<Dan Name="Dan_ShenWu">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_ShenWu</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.9</SuccessRate>
+		<Count>100</Count>
+	</Dan>
+	
+	<!-- 转劫延寿丹 -->
+		<Dan Name="Dan_ZhuanJieYanShou">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_ZhuanJieYanShou</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.9</SuccessRate>
+		<Count>100</Count>
+	</Dan>
+
+	<!-- 窃道欺天丹 -->
+		<Dan Name="Dan_QieDaoQiTian">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_QieDaoQiTian</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.9</SuccessRate>
+		<Count>100</Count>
+	</Dan>
+
+
+</List></DanFormulas>
